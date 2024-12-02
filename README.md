@@ -13,4 +13,6 @@ This is a single player game emulating Wheel of Fortune. Except....it's Boilerma
 
 # Startup
 
-python3 wheeloffortune.py
+```bash
+python3 solo_wof_mhrosz.py
+```
