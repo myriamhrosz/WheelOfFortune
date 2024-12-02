@@ -25,9 +25,11 @@ Academic Integrity Statement:
     another student access to my code.  The project I am
     submitting is my own original work.
 """
+import random as r
+import string
+
 
 def load_phrases():
-    import random as r
     text = []
     with open('phrases.txt') as phrases:
         for lines in phrases:
@@ -40,7 +42,6 @@ def load_phrases():
 
 
 def spin_the_wheel():
-    import random as r
     # 21 spaces
     spaces = [500, 500, 500, 500, 550, 550, 600, 600, 600, 600, 650,
               650, 650, 700, 700, 800, 800, 900, 2500, 'BANKRUPT', 'BANKRUPT']
@@ -60,8 +61,6 @@ def solowof(r, new, Vs, Cs,roundmoney):
 
 
 def main():
-    
-    import string
     alphabet_string = string.ascii_lowercase
     abcs = list(alphabet_string)
     
